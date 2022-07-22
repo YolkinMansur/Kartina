@@ -1,0 +1,11 @@
+<img src="{{ leo.works[2].img }}" class="mainImg" />
+<h3>{{ leo.works[2].name }} {{ leo.works[2].year }}</h3>
+<p>Автор: {{ leo.inform.name }}</p>
+<p>Рармер: {{ leo.works[2].size }}</p>
+<p>Находится: {{ leo.works[2].place }}</p>
+<div class="gallery">
+  <a routerLink="Mona"><img src="{{ leo.works[0].img }}" class="works" /></a>
+  <a routerLink="Generat"><img src="{{ leo.works[1].img }}" class="works" /></a>
+</div>
+<h4><a routerLink="">Вернуться назад</a></h4>
+<router-outlet></router-outlet>

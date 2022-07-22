@@ -1,0 +1,34 @@
+p {
+  font-family: Lato sans-serif;
+}
+.heading {
+  margin: 0 auto;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 35px;
+}
+.works {
+  width: 200px;
+  height: 200px;
+}
+.main {
+  display: block;
+  justify-content: space-between;
+}
+.leo {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+}
+.leoMain {
+  display: flex;
+  justify-content: center;
+}
+.leoInfo {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}

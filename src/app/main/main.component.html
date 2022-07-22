@@ -1,0 +1,16 @@
+<div class="main">
+  <div class="leoMain">
+    <img src="{{ leo.inform.img }}" class="leo" />
+    <div class="leoInfo">
+      <h3>{{ leo.inform.name }}</h3>
+      {{ leo.inform.info }}
+    </div>
+  </div>
+  <div class="gallery">
+    <a routerLink="Mona"><img src="{{ leo.works[0].img }}" class="works" /></a>
+    <a routerLink="Secret"><img src="{{ leo.works[1].img }}" class="works" /></a>
+    <a routerLink="Painters"><img src="{{ leo.works[2].img }}" class="works" /></a>
+  </div>
+  <router-outlet></router-outlet>
+</div>
+
